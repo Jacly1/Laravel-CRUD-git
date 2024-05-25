@@ -70,7 +70,7 @@ with font-awesome or any other icon font library -->
             @canany(['create-role', 'edit-role','delete-role'])
 
             <li class="nav-item">
-              <a href="{{url('roles')}}" class="nav-link {{set_active('roles')}}">
+              <a href="{{url('roles')}}" class="nav-link {{set_active('roles*')}}">
 
                 <i class="far fa-circlenav-icon"></i>
 
@@ -83,7 +83,7 @@ with font-awesome or any other icon font library -->
             @canany(['create-product', 'edit-product','delete-product'])
 
             <li class="nav-item">
-              <a href="{{ route('permission')}}" class="nav-link {{set_active('permission')}}">
+              <a href="{{ route('permission')}}" class="nav-link {{ set_active(['permission*', 'permissions*']) }}">
 
                 <i class="far fa-circlenav-icon"></i>
                 
@@ -96,7 +96,7 @@ with font-awesome or any other icon font library -->
             @canany(['create-role', 'edit-role','delete-role'])
 
             <li class="nav-item">
-              <a href="{{url('users')}}" class="nav-link {{set_active('users')}}">
+              <a href="{{url('users')}}" class="nav-link {{set_active('users*')}}">
 
                 <i class="far fa-circlenav-icon"></i>
 
@@ -109,7 +109,7 @@ with font-awesome or any other icon font library -->
             @canany(['create-role', 'edit-role','delete-role'])
 
             <li class="nav-item">
-              <a href="{{url('products')}}" class="nav-link {{set_active('products')}}">
+              <a href="{{url('products')}}" class="nav-link {{set_active('products*')}}">
 
                 <i class="far fa-circlenav-icon"></i>
 
@@ -122,7 +122,7 @@ with font-awesome or any other icon font library -->
             @canany(['create-role', 'edit-role','delete-role'])
 
             <li class="nav-item">
-              <a href="{{url('mahasiswa')}}" class="nav-link {{set_active('mahasiswa')}}">
+              <a href="{{url('mahasiswa')}}" class="nav-link {{set_active('mahasiswa*')}}">
 
                 <i class="far fa-circlenav-icon"></i>
 
